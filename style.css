@@ -1,0 +1,110 @@
+/* * {
+    border: red 1px dashed;
+} */
+
+body {
+    background-color: rgb(78, 78, 78);
+    font-family: Monospace;
+}
+
+p{
+    padding-left: 25px;
+}
+
+h1 {
+    padding-left: 20px;
+    font-size: 45px;
+    font-family: Candara;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    padding-left: 15px;
+    margin-bottom: 0px;
+    font-family: Candara;
+}
+
+h4 {
+    font-size: 16px;
+    padding-left: 15px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-family: Candara;
+}
+
+h5 {
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+hr {
+    width: 70%;
+}
+
+.mainContainer {
+    width: 800px;
+    margin: auto;
+}
+
+.bodyContainer {
+    display: flex;
+}
+
+.header {
+    height: 130px;
+
+    background: linear-gradient(80deg, rgb(165, 180, 202) 60%, rgb(69, 96, 136) 80%);
+
+    display: flex;
+    justify-content: space-between;
+    border: rgb(0, 0, 0) 4px ridge;
+}
+
+.headerRight {
+    width: 250px;
+    text-align: end;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+.infoBox {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+.leftBox {
+    width:70%;
+    background: linear-gradient(40deg, rgb(214, 214, 214) 0%, rgb(165, 180, 202) 100%);
+    border: rgb(0, 0, 0) 4px ridge;
+    border-top: none;
+}
+
+.leftBox ul {
+    list-style-type: circle;
+}
+
+.rightBox {
+    width:30%;
+    background-color: rgb(76, 108, 150);
+    color: whitesmoke;
+    border: rgb(0, 0, 0) 4px ridge;
+    border-top: none;
+    border-left: none;
+}
