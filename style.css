@@ -22,7 +22,7 @@ h1 {
 h2 {
     padding-left: 15px;
     margin-bottom: 0px;
-    font-family: Candara;
+
 }
 
 h4 {
@@ -31,7 +31,7 @@ h4 {
     font-weight: normal;
     margin-bottom: 0px;
     margin-top: 30px;
-    font-family: Candara;
+
 }
 
 h5 {
@@ -39,6 +39,7 @@ h5 {
     padding-left: 15px;
     font-weight: normal;
     margin-bottom: 0px;
+
 }
 
 ol {
@@ -55,9 +56,36 @@ hr {
     width: 70%;
 }
 
+
+
+.mainContainerX {
+    width: 800px;
+    margin: auto;
+    background: linear-gradient(40deg,
+    rgb(126, 236, 204) 0%,
+    rgb(82, 82, 82) 40%,
+    rgb(126, 236, 204) 50%,
+    rgb(83, 227, 224) 60%,
+    rgb(82, 82, 82) 85%,
+    rgb(82, 82, 82) 95%,
+    rgb(126, 236, 204) 100%);
+    
+
+}
+
 .mainContainer {
     width: 800px;
     margin: auto;
+    background: linear-gradient(180deg, 
+    rgba(54, 54, 54, 0.226),
+    rgb(54, 54, 54) 18%,
+    rgb(54, 54, 54) 18.8%,
+    rgba(255, 251, 0, 0) 20.8%,
+    rgb(0, 0, 0) 20%,
+    rgb(54, 54, 54) 21%,
+    rgb(54, 54, 54) 21.7%,
+    rgb(0, 0, 0) 22%,
+    rgb(255, 255, 255) 22.1%);
 }
 
 .bodyContainer {
@@ -65,18 +93,18 @@ hr {
 }
 
 .header {
-    height: 130px;
-
-    background: linear-gradient(80deg, rgb(165, 180, 202) 60%, rgb(69, 96, 136) 80%);
-
+    height: 225px;
     display: flex;
     justify-content: space-between;
     border: rgb(0, 0, 0) 4px ridge;
+
+    color: whitesmoke;
 }
 
 .headerRight {
     width: 250px;
     text-align: end;
+    
     margin-top: auto;
     margin-bottom: auto;
     padding-right: 40px;
@@ -89,11 +117,17 @@ hr {
     padding: 10px;
 }
 
+.changeStyle {
+    color: black;
+    font-style: inherit;
+    font-family: 'Cutive Mono';
+}
+
 .leftBox {
     width:70%;
-    background: linear-gradient(40deg, rgb(214, 214, 214) 0%, rgb(165, 180, 202) 100%);
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
+    font-family: 'Cutive Mono';
 }
 
 .leftBox ul {
@@ -102,7 +136,7 @@ hr {
 
 .rightBox {
     width:30%;
-    background-color: rgb(76, 108, 150);
+    background-color: rgba(35, 206, 155, 0.74);
     color: whitesmoke;
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
