@@ -14,7 +14,7 @@ p{
 h1 {
     padding-left: 20px;
     font-size: 45px;
-    font-family: Candara;
+    font-family: 'Cutive Mono';
     margin-top: 5px;
     margin-bottom: 0px;
 }
@@ -128,6 +128,7 @@ hr {
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
     font-family: 'Cutive Mono';
+    background-color: whitesmoke;
 }
 
 .leftBox ul {
@@ -136,7 +137,7 @@ hr {
 
 .rightBox {
     width:30%;
-    background-color: rgba(35, 206, 155, 0.74);
+    background-color: rgb(40, 167, 129);
     color: whitesmoke;
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
