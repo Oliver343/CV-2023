@@ -62,13 +62,13 @@ hr {
     width: 800px;
     margin: auto;
     background: linear-gradient(40deg,
-    rgb(126, 236, 204) 0%,
+    rgb(126, 157, 236) 0%,
     rgb(82, 82, 82) 40%,
-    rgb(126, 236, 204) 50%,
-    rgb(83, 227, 224) 60%,
+    rgb(126, 144, 236) 50%,
+    rgb(83, 88, 227) 60%,
     rgb(82, 82, 82) 85%,
     rgb(82, 82, 82) 95%,
-    rgb(126, 236, 204) 100%);
+    rgb(126, 128, 236) 100%);
     
 
 }
@@ -137,7 +137,7 @@ hr {
 
 .rightBox {
     width:30%;
-    background-color: rgb(40, 167, 129);
+    background-color: rgb(40, 53, 167);
     color: whitesmoke;
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
