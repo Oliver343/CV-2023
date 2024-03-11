@@ -89,7 +89,7 @@ hr {
 }
 
 .header {
-    height: 165px;
+    height: 240px;
     display: flex;
     justify-content: space-between;
     border: rgb(0, 0, 0) 4px ridge;
@@ -138,4 +138,8 @@ hr {
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
     border-left: none;
+}
+
+.black {
+    color: black;
 }
