@@ -53,7 +53,6 @@ hr {
 }
 
 
-
 .mainContainerX {
     width: 800px;
     margin: auto;
@@ -128,7 +127,8 @@ hr {
 }
 
 .leftBox ul {
-    list-style-type: circle;
+    list-style-type: square;
+    color: aquamarine;
 }
 
 .rightBox {
