@@ -1,7 +1,3 @@
-/* * {
-    border: red 1px dashed;
-} */
-
 body {
     background-color: rgb(78, 78, 78);
     font-family: Monospace;
@@ -14,7 +10,7 @@ p{
 h1 {
     padding-left: 20px;
     font-size: 45px;
-    font-family: 'Cutive Mono';
+    font-family: 'Cutive Mono', Monospace;
     margin-top: 5px;
     margin-bottom: 0px;
 }
@@ -22,7 +18,7 @@ h1 {
 h2 {
     padding-left: 15px;
     margin-bottom: 0px;
-    font-family: Candara;
+
 }
 
 h4 {
@@ -31,7 +27,7 @@ h4 {
     font-weight: normal;
     margin-bottom: 0px;
     margin-top: 30px;
-    font-family: Candara;
+
 }
 
 h5 {
@@ -39,7 +35,7 @@ h5 {
     padding-left: 15px;
     font-weight: normal;
     margin-bottom: 0px;
-
+    margin-top: 0px;
 }
 
 ol {
@@ -56,11 +52,6 @@ hr {
     width: 70%;
 }
 
-.changeStyle {
-    color: black;
-    font-style: inherit;
-    font-family: 'Cutive Mono';
-}
 
 .mainContainerX {
     width: 800px;
@@ -80,16 +71,16 @@ hr {
 .mainContainer {
     width: 800px;
     margin: auto;
-    background: linear-gradient(335deg, 
+    background: linear-gradient(180deg, 
     rgba(54, 54, 54, 0.226),
-    rgb(54, 54, 54) 35%,
-    rgb(54, 54, 54) 67.8%,
-    rgba(255, 251, 0, 0) 69.8%,
-    rgb(0, 0, 0) 70%,
-    rgb(54, 54, 54) 71%,
-    rgb(54, 54, 54) 71.7%,
-    rgb(0, 0, 0) 72%,
-    rgb(255, 255, 255) 72.1%);
+    rgb(54, 54, 54) 18%,
+    rgb(54, 54, 54) 18.8%,
+    rgba(255, 251, 0, 0) 20.8%,
+    rgb(0, 0, 0) 20%,
+    rgb(54, 54, 54) 21%,
+    rgb(54, 54, 54) 21.7%,
+    rgb(0, 0, 0) 22%,
+    rgb(255, 255, 255) 22.1%);
 }
 
 .bodyContainer {
@@ -97,16 +88,18 @@ hr {
 }
 
 .header {
-    height: 130px;
+    height: 165px;
     display: flex;
     justify-content: space-between;
     border: rgb(0, 0, 0) 4px ridge;
-    font-family: 'Cutive Mono'
+
+    color: whitesmoke;
 }
 
 .headerRight {
     width: 250px;
     text-align: end;
+    
     margin-top: auto;
     margin-bottom: auto;
     padding-right: 40px;
@@ -119,11 +112,18 @@ hr {
     padding: 10px;
 }
 
+.changeStyle {
+    color: black;
+    font-style: inherit;
+    font-family: 'Cutive Mono';
+}
+
 .leftBox {
     width:70%;
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
-    color: whitesmoke;
+    font-family: 'Cutive Mono', Monospace;
+    background-color: whitesmoke;
 }
 
 .leftBox ul {
@@ -133,7 +133,7 @@ hr {
 
 .rightBox {
     width:30%;
-    background-color: rgba(35, 206, 155, 0.74);
+    background-color: rgb(40, 167, 129);
     color: whitesmoke;
     border: rgb(0, 0, 0) 4px ridge;
     border-top: none;
