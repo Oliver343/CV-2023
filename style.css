@@ -2,9 +2,6 @@ body {
     background-color: rgb(78, 78, 78);
     font-family: Monospace;
 }
-b {
-    color: red;
-}
 
 p{
     padding-left: 25px;
@@ -54,6 +51,7 @@ a {
 hr {
     width: 70%;
 }
+
 
 
 .mainContainerX {
@@ -130,8 +128,7 @@ hr {
 }
 
 .leftBox ul {
-    list-style-type: square;
-    color: aquamarine;
+    list-style-type: circle;
 }
 
 .rightBox {
@@ -143,3 +140,6 @@ hr {
     border-left: none;
 }
 
+.black {
+    color: black;
+}
