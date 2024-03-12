@@ -2,6 +2,9 @@ body {
     background-color: rgb(78, 78, 78);
     font-family: Monospace;
 }
+b {
+    color: red;
+}
 
 p{
     padding-left: 25px;
